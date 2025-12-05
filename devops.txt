@@ -1,0 +1,199 @@
+Slide 1
+
+Q1. Choose the correct statement A. DevOps improves collaboration between development and operations. B. DevOps is only about writing automation scripts.
+
+Slide 2
+
+A. CI/CD helps catch issues early by running tests automatically. B. CI/CD is only useful after deployment.
+
+Slide 3
+
+A. Infrastructure as Code means managing servers manually through SSH. B. Infrastructure as Code means defining infrastructure using configuration files.
+
+Slide 4
+
+A. DevOps eliminates the need for monitoring tools. B. Monitoring is an essential part of DevOps for visibility.
+
+Slide 5
+
+A. Version control helps track code changes and collaborate. B. Version control is optional and not needed in DevOps.
+
+Slide 6
+
+A. Automation in DevOps reduces human errors. B. Automation increases the chance of manual mistakes.
+
+Slide 7
+
+A. DevOps focuses on shorter development cycles and faster delivery. B. DevOps aims to slow down deployments for safety.
+
+Slide 8
+
+A. Continuous Integration means merging code frequently. B. Continuous Integration means deploying code to production every hour.
+
+Slide 9
+
+A. DevOps is only a toolset. B. DevOps is a culture + practices + tools.
+
+Slide 10
+
+A. Rollbacks help revert a deployment when issues occur. B. Rollbacks delete the entire application permanently.
+
+Slide 11
+
+A. A pipeline defines automated steps like build → test → deploy. B. A pipeline is a list of manual tasks.
+
+Slide 12
+
+A. DevOps encourages small, incremental changes. B. DevOps encourages large, infrequent releases.
+
+Slide 13
+
+A. Secrets should be stored in plain text inside repositories. B. Secrets must be stored safely using secret managers.
+
+Slide 14
+
+A. DevOps teams use monitoring tools like Prometheus, Grafana, CloudWatch. B. DevOps teams avoid monitoring to reduce costs.
+
+Slide 15
+
+A. CI ensures code is tested automatically after every push. B. CI only runs when a developer manually triggers it.
+
+Slide 16
+
+A. CD stands for Continuous Deployment or Continuous Delivery based on setup. B. CD always means Continuous Destruction.
+
+Slide 17
+
+A. DevOps pipelines can include linting, testing, security checks. B. Pipelines can only contain deployment tasks.
+
+Slide 18
+
+A. DevOps encourages collaboration between developers, ops, testers, and security. B. DevOps excludes security from workflows.
+
+Slide 19
+
+A. Automated tests in CI build confidence before merging code. B. Automated tests are unnecessary for small teams.
+
+Slide 20
+
+A. DevOps reduces manual interventions using automation. B. DevOps increases manual interventions to avoid automation issues.
+
+🟦 GITHUB ACTIONS (15 slides) Slide 21
+
+A. GitHub Actions workflows are defined in YAML files. B. GitHub Actions workflows are written in Java code.
+
+Slide 22
+
+A. Workflows must be stored in .github/workflows/. B. Workflows can be stored anywhere in the repository.
+
+Slide 23
+
+A. A GitHub Actions job contains steps that run commands. B. A GitHub Actions job can only run a single command.
+
+Slide 24
+
+A. The on: keyword defines workflow triggers. B. The on: keyword is used to define environment variables.
+
+Slide 25
+
+A. GitHub Actions supports push, pull request, schedule, and manual triggers. B. GitHub Actions can only trigger on schedule.
+
+Slide 26
+
+A. The default GitHub runner environment can run bash commands. B. GitHub runners cannot execute scripts.
+
+Slide 27
+
+A. Artifacts in GitHub Actions allow storing build outputs. B. Artifacts automatically deploy to production.
+
+Slide 28
+
+A. Secrets in GitHub Actions must be stored in repo/org secrets. B. Secrets can be stored directly in YAML files.
+
+Slide 29
+
+A. GitHub Actions supports caching to speed up builds. B. GitHub Actions does not support caching.
+
+Slide 30
+
+A. A workflow can have multiple jobs that run in parallel or sequence. B. A workflow can only have one job.
+
+Slide 31
+
+A. GitHub Actions can build and push Docker images. B. GitHub Actions cannot be used with Docker.
+
+Slide 32
+
+A. Runners can be GitHub-hosted or self-hosted. B. Only GitHub-hosted runners are allowed.
+
+Slide 33
+
+A. Every job runs in a clean environment unless caching is used. B. Jobs always share the same environment automatically.
+
+Slide 34
+
+A. GitHub Actions supports matrix builds to test multiple versions. B. GitHub Actions cannot test against multiple versions.
+
+Slide 35
+
+A. .github/workflows can store n number of pipeline workflow. B. .github/workflows can only store 1 pipeline workflow.
+
+🟦 DOCKER BASICS (15 slides) Slide 36
+
+A. A Docker container is a lightweight runtime environment. B. A Docker container is a VM with its own OS kernel.
+
+Slide 37
+
+A. Docker images are templates used to create containers. B. Docker images and containers are the same thing.
+
+Slide 38
+
+A. The Dockerfile defines steps to build an image. B. Docker images cannot be created using a file.
+
+Slide 39
+
+A. docker build creates an image. B. docker build starts a container directly.
+
+Slide 40
+
+A. docker run creates and starts a container. B. docker run edits the Dockerfile.
+
+Slide 41
+
+A. Containers are isolated from the host system. B. Containers always share the host filesystem by default.
+
+Slide 42
+
+A. Docker Hub is a registry to store and share images. B. Docker Hub is a place to store log files.
+
+Slide 43
+
+A. docker ps shows running containers. B. docker ps shows Docker logs.
+
+Slide 44
+
+A. A Docker container stops if its main process exits. B. Containers continue running even when no process is active.
+
+Slide 45
+
+A. docker pull downloads an image from a registry. B. docker pull uploads images to registries.
+
+Slide 46
+
+A. Multi-stage builds help reduce image size. B. Multi-stage builds always increase image size.
+
+Slide 47
+
+A. Docker Compose helps define and run multi-container applications. B. Docker Compose is used to install Docker.
+
+Slide 48
+
+A. ENV in a Dockerfile sets environment variables. B. ENV in a Dockerfile installs packages.
+
+Slide 49
+
+A. Exposing a port in Dockerfile does not automatically publish it. B. Exposing a port makes it publicly accessible immediately.
+
+Slide 50
+
+A. Docker caches layers to speed up builds. B. Docker never uses caching during builds.
